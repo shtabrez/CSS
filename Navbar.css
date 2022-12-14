@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: #566c2b;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+}
+ header ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+
+} 
+
+header a {
+    color: white;
+}
+
+#logo {
+    margin: 0 auto;
+    font-size: 30px;
+    float: left;
+}
+
+#menu li {
+    padding: 10px;
+}
+#btn {
+    background-color: red;
+
+}
+
+a:hover{
+    background-color: #156ee2;
+}
